@@ -1,0 +1,93 @@
+﻿body 
+{
+    font-family: Arial, sans-serif;
+}
+.profile-container 
+{
+    width: 40%;
+    margin: auto;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-header 
+{
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    font-size: 15px;
+}
+.profile-pic
+{
+    display: block;
+    margin: 15px auto;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.profile-details 
+{
+    margin: 15px 0;
+    text-align: left;
+}
+
+    .profile-details table 
+    {
+        width: 90%;
+    }
+
+        .profile-details table td {
+            padding: 8px;
+            font-size: 12px;
+        }
+
+            .profile-details table td:first-child 
+            {
+                width: 120px;
+                font-weight: bold;
+            }
+
+.contact-info 
+{
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.buttons 
+{
+    text-align: center;
+    margin-top: 15px;
+}
+
+    .buttons input 
+    {
+        padding: 8px 16px;
+        margin: 0 8px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .buttons .modify 
+    {
+        background-color: #00bfff;
+        color: white;
+    }
+
+    .buttons .delete 
+    {
+        background-color: #ff4c4c;
+        color: white;
+    }
+
+    .buttons .back-button {
+        background-color: #F8C471;
+        color: white;
+    }

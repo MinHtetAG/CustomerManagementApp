@@ -23,7 +23,7 @@ namespace CustomerManagementApp.Data
                 .HasRequired(c => c.Customer)
                 .WithMany(c => c.Contacts)
                 .HasForeignKey(c => c.CustomerId)
-                .WillCascadeOnDelete(true); // Enable cascade delete for contacts
+                .WillCascadeOnDelete(true);     
         }
     }
 }
